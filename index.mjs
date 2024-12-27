@@ -8,7 +8,7 @@ const port = 3000
 app.use(cors())
 
 app.get('/', (req, response) => {
-  response.send({name:"usama", age:18})
+  response.send({name:"Usama", age:18})
 })
 
 app.get('/products', (req, response) => {
